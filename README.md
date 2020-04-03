@@ -1,7 +1,7 @@
 # DialogDesign
- var  builder = AlertDialog.Builder(this,R.style.AlertDialogTheme)
+   var  builder = AlertDialog.Builder(this,R.style.AlertDialogTheme)
     var view= LayoutInflater.from(this).inflate(R.layout.layout_success_dialog, R.id.layoutDialogContainer as (ConstraintLayout))
-   builder.setView(view)
+    builder.setView(view)
         view.textTitle.setText(resources.getString(R.string.success_title))
         view.textMessage.setText(resources.getString(R.string.dummy_text))
         view.buttonAction.setText(resources.getString(R.string.okay))
